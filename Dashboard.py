@@ -10,19 +10,10 @@ import plotly.express as px
 from base64 import b64encode
 import io
 import dash
-import dash_html_components as html
 import plotly.graph_objects as go
 import dash_core_components as dcc
-import plotly.express as px
-from flask import Flask
 import dash_lazy_load
-import dash
-import dash_html_components as html
-
-import plotly.express as px
 from jupyter_dash import JupyterDash
-import dash_core_components as dcc
-import dash_html_components as html
 from dash.dependencies import Input, Output
 
 import pandas as pd
@@ -33,10 +24,8 @@ import matplotlib.pyplot as plt
 from statsmodels.tsa.stattools import acf
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 import statsmodels.api as sm
-import plotly.graph_objs as go
 from plotly.offline import init_notebook_mode, iplot
 from IPython.display import display, HTML
-import plotly.express as px
 from keras import optimizers
 from keras.layers import Dense, LSTM, RepeatVector, TimeDistributed, Flatten
 from sklearn.metrics import mean_absolute_error, mean_absolute_percentage_error, mean_squared_error
